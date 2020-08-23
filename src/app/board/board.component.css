@@ -1,14 +1,32 @@
 main {
     display: grid;
-    grid-template-columns: 200px 200px 200px;
+    width: 50%;
+    grid-template-columns: repeat(3,1fr);
     grid-gap: 0px;
+    margin: auto;
+    margin-top: 2rem ;
 }
   
 app-square {
     border: 1px gray solid;
-    height: 200px;
+    height: 23vh;
 }
 
 .width30 {
     width: 30%;
+}
+.text-center {
+    text-align: center;
+}
+
+@media(max-width: 600px) {
+    main{
+        width: 100% !important;
+    }  
+    app-square {
+        height: 20vh !important;
+    }  
+    .width30 {
+        width: 90% !important;
+    }
 }
