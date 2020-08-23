@@ -28,4 +28,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Example
 
-[Attached Screen Shot](https://github.com/AdamShafiSyed/Angular_Tic_Toe_Game/blob/master/src/assets/Screenshot%20(189).png).
+![Attached Screen Shot](https://github.com/AdamShafiSyed/Angular_Tic_Toe_Game/blob/master/src/assets/Screenshot%20(189).png).
